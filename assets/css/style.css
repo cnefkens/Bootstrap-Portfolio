@@ -1,0 +1,445 @@
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+	background-image: url("../images/concrete_seamless.png");
+	margin: 0;
+	height: 100%;
+}
+
+
+.MenuBar1 {
+	font-size: 20px;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	border: 1px solid #cccccc;
+    list-style-type: none;
+    overflow: hidden;
+    position: relative;
+    background: #ffffff;
+    height: 66px;
+    margin: 0px;
+    color: #777777;
+}
+
+.MyName {
+	position: absolute;
+	top: 0px;
+	left: 5%;
+	right: 5%;
+	margin: 0px;
+	font-size: 40px;
+	background: #4aaaa5;
+	color: #ffffff;
+	padding: 5%;
+	font-weight: bold;
+	width: 100%;
+	text-align: center;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+
+	}
+
+
+
+#lsAbout, #lsPortfolio, #lsContact{
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	font-size: 18px;
+}
+
+.MenuText{
+	text-decoration: none;
+	font-style: normal;
+	color: #777777;
+}
+
+.lsContact{
+	margin-right: 20px;
+}
+
+
+section, #AboutMeSection, #ContactMeSection, #PortfolioSection {
+	position: relative;
+	width: 90%;
+	/*width: 960px;*/
+ 	padding-left: 2.5%;
+    padding-top: 2.5%;
+padding-bottom: 2.5%;
+padding-right: 2.5%; 
+	clear: both;
+}
+
+
+
+.AboutMe, .ContactMe, .Portfolio {
+	  /*width: 608px;*/
+	 /*width: 100%; */
+	 /*margin-right: 5%; */
+	 background: #ffffff;
+	 padding: 2.5%;
+	 border: 1px solid #dddddd;
+	 /*float:left;*/
+	 margin-bottom: 2.5%;
+}
+
+.Portfolio{
+	float: left;
+	/*width: 460px;
+	height: 585px;*/
+	width: 65%;
+
+}
+
+.PortfolioPanel{
+	/*float: left;*/
+	width: 100%;
+	height: 100%;
+	padding: 2.5%;
+	margin-top: -2.5%;
+	/*width: 100%;*/
+
+}
+
+#AboutMePic{
+	float: left;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	border-style: none;
+}
+
+#AboutMeLabel, #ContactMeLabel, #PortfolioLabel {
+	font-size: 28px;
+	border-bottom: 3px solid #dddddd;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-bottom: 2.5%;
+	padding-right: 2.5%;
+	color: #4aaaa5;
+	margin-bottom: 2.5%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	font-weight: bold;
+}
+
+#PortfolioLabel {
+	margin-bottom: 10px;
+	width: 95%;
+	/*width: 95%;*/
+}
+
+#AboutMeAside{
+	float: left;
+	font-size: 16px;
+	font-weight: normal;
+	color: #777777;
+	padding-right: 2.5%;
+	padding-left: 2.5%;
+}
+
+.ContactForm{
+	/*float: left;*/
+	display: block;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 2.5%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background: #ffffff;
+}
+
+#ContactName, #ContactEmail, #ContactMessage {
+	width: 100%;
+	margin-right: 2.5;
+	margin-bottom: 2.5%;
+	color: #4aaaa5;
+	border: 1px solid #dddddd;
+	font-size: 12px;
+}
+
+#ContactMessage{
+	height: 200px;
+	padding-left: 2% ;
+
+}
+
+#lblContactName, #lblContactEmail, #lblContactMessage{
+	color: #4aaaa5;
+	padding: 2px;
+	font-size: 14px;
+}
+
+#btnContactSubmit{
+	background: #4aaaa5;
+	color:#ffffff;
+	padding-top:3px;
+	padding-bottom:3px;
+	padding-left:12px;
+	padding-right: 12px;
+}
+
+
+.ConnectBox{
+	/*width: 208px;*/
+	/*width: 90%;*/
+	background: #ffffff;
+	border: 1px solid #dddddd;
+	/*margin-left: 2.5%;*/
+	left: 5%;
+	width: 90%;
+	clear: both;
+}
+
+.ConnectBoxPanel{
+	background: #ffffff;
+	width: 100%;
+	border: none;
+	padding:0px;
+}
+
+.ConnectBoxPanelTitle {
+	background: #ffffff;
+	width: 100%;
+	border:none;
+}
+
+.PortfolioImages{
+	position: relative;
+	float: left;
+/*	width: 200px;
+	height: 150px;*/
+	margin: 2.5%;
+	padding: 0px;
+}
+
+.PortfolioImageLabel {
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	text-align: center;
+	color: #ffffff;
+	background: #4aaaa5;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	width: 100%;
+	padding: 2.5%;
+}
+
+.ConnectBoxLabel{
+	padding: 2.5%;
+	border-bottom: 3px solid #dddddd;
+	clear: both;
+	text-align: center;
+	margin: 2.5%;
+
+	background: #ffffff;
+	color: #4aaaa5;
+	font-family:'Georgia', Times, 'Times New Roman', serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.ConnectBoxIcons{
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+	padding-top: 2.5%;
+	border: none;
+	width: 90%;
+}
+
+#GitHubIcon{
+	float: left;
+	margin-right: 10%;
+	margin-left: 12.5%;
+}
+
+#LinkedInIcon{
+	margin-right: 8%;
+	/*margin-left: 5%;*/
+}
+
+#StackOverFlowIcon{
+	/*margin-right: 12.5%;*/
+}
+
+ .site-footer {
+	clear: both;
+	/*margin-top: 10px;*/
+	display: block;
+	bottom: 0px;
+	height: 40px;
+	padding: 10px;
+	background: #666666;
+	color: #ffffff;
+	text-align: center;
+	width: 100%;
+	border-top: 4px solid #4aaaa5;
+
+}
+
+
+
+/*@media screen and (max-width: 980px) {
+  
+  #AboutMe{
+  	width:280px;
+  }  
+
+  #Portfolio{
+  	width: 230px;
+  	height: 945px;
+  }
+
+  #ContactMe{
+  	width: 365px}
+} 
+
+@media screen and (max-width: 768px) {
+  
+  #AboutMe, #ContactMe{
+  	width:608px;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }  
+
+  #Portfolio{
+	width: 460px;
+	height: 585px;
+}
+
+  section{ 
+  	width: 768px;
+  	margin-left: 20px; }
+
+  .MyName{
+  	left: 30px;
+  }
+
+   .lstAbout, .lstPortfolio, .lstContact{
+	padding: 12px;
+	
+	}
+
+  .lstContact{
+  	margin-right: 0px;
+  }
+
+  #ConnectBox{
+  	width:620px;
+  	margin-bottom: 50px;
+  	margin-left: 10px;
+  }  
+
+   #ConnectBoxPortfolio{
+  	width:460px;
+  	margin-bottom: 50px;
+  	margin-left: 10px;
+  }  
+} 
+
+ @media screen and (max-width: 640px) {
+    /*body {width: 640px;}
+
+    section{ 
+    	width: 640px;
+  		margin-left: 5px; 
+    	margin-right: 5px;
+		margin-top: 10px;
+		margin-bottom: 10px;} 	
+
+	header {
+		position: static;
+		display: table;
+  }
+  
+	.MenuBar1 {
+	position: static;
+       display: table-row-group;
+       height: 50px;
+       padding: 0px;
+  	}
+
+  	 .lsAbout{
+  	 	float: left;
+		padding: 10px;
+		font-size: 20px;
+		margin: 0px;
+	}
+
+	.lsPortfolio ,.lsContact{
+	    padding: 10px;
+		font-size: 20px;
+		margin: 0px;
+	}
+
+
+	.lsAbout{
+		padding-left: 50px;
+	}
+
+	.lsContact{
+		padding-right: 30px;
+	}
+
+	.lsPortfolio{
+		padding-right: 15px;
+	}
+  
+  	.MyName{
+  		position: static;
+  		margin: auto;
+  		display: table-header-group;
+  		padding: 10px;
+  		width: 100%;
+  		text-align: center;
+  		font-size: 40px;
+  	}
+  
+  #lblName{
+  	padding: 15px;
+  	font-size: 36px;
+
+  }
+  #AboutMe{
+    	width:280px;
+    	margin-left: 10px;
+    	margin-bottom: 10px;
+    	margin-right: 10px
+  }
+
+   #Portfolio{
+  	width: 270px;
+  	height: 945px;
+  	margin-left: 5px;
+  	margin-bottom: 10px;
+    margin-right: 10px
+  }
+
+  .PortfolioImages {
+  	margin-left: 35px;
+  }
+
+  	
+  #ConnectBox{
+  	clear: both;
+  	width:290px;
+  	margin-bottom: 10px;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  }  
+
+   #ConnectBoxPortfolio{
+  	width:280px;
+  	margin-bottom: 50px;
+  	margin-left: 5px;
+  }  
+
+} 
+ 
+*/*/
+
+
+
+
+

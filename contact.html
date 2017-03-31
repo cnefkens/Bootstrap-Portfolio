@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bootstrap-Contact</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Fascinate+Inline|Jim+Nightshade" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container">
+   <ul class="nav navbar-nav navbar-left">
+        <li class="MyName" id="lblName">Charles Nefkens</li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li id="lsContact"><a href="contact.html">Contact</a></li>
+        <li id="lsPortfolio"><a href="portfolio.html">Portfolio</a></li>
+        <li id="lsAbout"><a href="index.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+   <div class="row" id="ContactMeSection">
+       <div class="col-lg-8 ContactMe">
+         <div class="row">
+          <h1 id="ContactMeLabel">Contact Me</h1>
+          </div>
+           <div class="row">
+              <div class="col-md-11 ContactForm">
+             <form>
+               <div class="form-group">
+                <label for="inputName" id="lblContactName">Name</label>
+                  <input type="text" class="form-control" id="ContactName" placeholder="John Smith">
+                </div>
+              <div class="form-group">
+                <label for="inputEmail" id="lblContactEmail">Email</label>
+                <input type="email" class="form-control" id="ContactEmail" placeholder="example@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="inputMessage" id="lblContactMessage">Message</label>
+                  <input type="text" class="form-control" id="ContactMessage" placeholder="John Smith">
+                </div>
+   
+                <button type="submit" class="btn btn-default" id="btnContactSubmit">Submit</button>
+                </form>
+            </div>
+             
+            </div>   
+       </div>   
+       <div class="col-lg-4">
+             <div class="panel panel-default ConnectBox">
+              <div class="panel-heading ConnectBoxPanel" >
+                 <div class="panel-title ConnectBoxPanelTitle"> <h3 class="ConnectBoxLabel">Connect with Me</h3></div>
+             </div>
+            <div class="panel-body ConnectBoxIcons">
+                <a href="https://github.com/cnefkens" target="_blank"><img id="GitHubIcon" src="assets/images/1490418799_github2.png" alt="Git Hub Icon" height="50" width="50"></a>
+              <a href="https://www.linkedin.com/in/charles-nefkens-7436247/" target="_blank"><img id="LinkedInIcon" src="assets/images/1490418834_linkedin_square_color.png" alt="Linked In Icon" height="50" width="50"></a>
+              <a href="http://stackoverflow.com/users/7555086/chuckn-lb?tab=profile" target="_blank"> </a> <img id="StackOverFlowIcon" src="assets/images/1490418907_stackoverflow.png" alt="StackOverFlow Icon" height="50" width="50">
+            </div>
+            </div>
+        </div>
+        
+
+</div>
+</div>
+  <footer class="site-footer">
+     Copyrizzle 2017 Fo Shizzle
+  </footer>
+</body>
+</html>
